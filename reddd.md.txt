@@ -1,0 +1,56 @@
+# Machine-learning-Workshop-Python-Prague
+
+## Installing Jupyter Notebook
+
+### Install Python
+First, ensure you have Python installed on your system. You can download and install Python from the [official website](https://www.python.org/).
+
+### Install Jupyter Notebook
+Once you have Python installed, open a terminal or command prompt and run the following command to install Jupyter Notebook using pip:
+```bash
+pip install jupyter
+```
+
+### Start Jupyter Notebook
+After the installation is complete, you can start Jupyter Notebook by running the following command in your terminal or command prompt:
+```bash
+jupyter notebook
+```
+This will start the Jupyter Notebook server and open your default web browser to the Jupyter dashboard.
+
+### Create a New Notebook
+From the Jupyter dashboard, you can create a new notebook by clicking on the "New" button and selecting "Python 3" (or any other available kernel) under the "Notebooks" section. This will open a new Jupyter Notebook where you can start writing and executing Python code.
+
+#### Alternatively
+1. **Download Anaconda**: [Anaconda](https://www.anaconda.com/)
+2. Once it's installed, start Anaconda Navigator.
+3. From the main window, install "Jupyter Notebook".
+4. Start Jupyter Notebook and Create a New Notebook:
+   - From the Jupyter dashboard, click on the "New" button.
+   - Select "Python 3" (or any other available kernel) under the "Notebooks" section.
+   - This will open a new Jupyter Notebook where you can start writing and executing Python code.
+
+
+## Required Python Libraries
+- cv2
+- tkinter
+- sklearn
+- tensorflow
+- skimage
+- numpy
+- matplotlib
+- seaborn
+
+## Installing Required Libraries
+
+```bash
+!pip install opencv-python-headless
+!pip install opencv-python
+!pip install tk
+!pip install scikit-learn
+!pip install tensorflow
+!pip install scikit-image
+!pip install numpy
+!pip install matplotlib
+!pip install seaborn
+```
